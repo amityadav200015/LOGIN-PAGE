@@ -1,0 +1,136 @@
+body{
+    background-image: url(bmw.jpg);
+    
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px 1000px;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+
+
+
+.box h1{
+    color: rgb(19, 16, 16);
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 10;
+    background: rgba(100, 98, 98, 0.452);
+    text-align: center;
+
+}
+.box input[type ="text"], .box input[type="password"]{
+    border: 5;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(5, 4, 4);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type= "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type= "submit"]:hover{
+    background: #8fdbaf;
+}
+nav {
+    width: 60%; height: 5vh;
+    background: rgba(0,0,0,0.2);
+    color: white; display: flex; justify-content: space-evenly;
+    align-items: center;text-transform: uppercase;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+
+}
+nav a:hover{
+    color:blue;
+}
+footer{
+    background-color:rgba(71, 71, 70, 0.795);
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 1.2cm;
+    width: 100%;
+    color: rgba(59, 56, 56, 0.61);
+    text-align: center;
+}
+footer a{
+    color: black;
+    padding: 4px;
+}
+footer a:hover{
+    color: blue;
+}
+.box1{
+    position: relative;
+    left: 0.5cm;
+    top: 1cm;
+    width: 5cm;
+    height: 10cm;
+    border: 3px solid rgba(66, 63, 63, 0.904);
+    text-align: center;
+    text-shadow: black;
+    color:black;
+    opacity: 10;
+    background-color: rgba(100, 98, 98, 0.452);
+}
+.box1 a{
+    color:white;
+    text-indent: 1cm;
+    text-shadow: black;
+}
+.box2{
+    position: right;
+    left: 30cm;
+    top: 2cm;
+    width: 5cm;
+    height: 10cm;
+    border: 3px solid rgba(66, 63, 63, 0.904);
+    text-align: center;
+    text-shadow: black;
+    color:black;
+    opacity: 10;
+    background-color: rgba(100, 98, 98, 0.452);
+}
